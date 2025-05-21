@@ -6,6 +6,18 @@ Este proyecto tiene como objetivo la creación de un sistema de soporte para ges
 1. **Creación y gestión de tickets**: Los usuarios pueden registrar nuevos tickets con detalles sobre el problema que necesitan solucionar.
 2. **Generación de reportes**: Los administradores pueden generar reportes basados en diversos criterios (fecha, tipo de problema, agente).
 
+## Pre requisitos
+
+Utilizaremos el comando:
+flutter doctor
+para comprobar que tenemos todo disponible, si todos los prerequisitos están listos. Por ejemplo, Android studio. (tambien podemos usar flutter upgrade para actualizar Flutter o sus herramientas)
+
+![Opciones de usuario 2](imagen0.png)
+
+Y con el comando:
+flutter pub get
+Podremos cargar todo flutter correctamente y empezar
+
 ## Funcionalidades Implementadas
 
 ### 1. Creación y gestión de tickets
@@ -17,7 +29,15 @@ Este proyecto tiene como objetivo la creación de un sistema de soporte para ges
    - Se puede crear un usuario y luego probar la funcionalidad.
    - Ejemplo de usuario: "roro". password: "123456".
      
-![Captura de la pantalla de la creación de tickets](imagen1.png)
+Al loguear como un usuario, podremos ver las diferentes opciones para gestionar nuestros tickets.
+
+![Opciones de usuario 1](imagen1.png)
+
+
+![Opciones de usuario 2](imagen1_1.png)
+
+Con la opcion de crear ticket, crearemos nuestros tickets.
+
 
 
 ### 2. Generación de reportes
@@ -28,7 +48,22 @@ Este proyecto tiene como objetivo la creación de un sistema de soporte para ges
    - Los reportes están disponibles en formato descargable (PDF/Excel).
    - Ejemplo de usuario: "admin", password: "admin123".
 
+Una vez que logueemos con usuario admin, entraremos a su interfaz.
+
+
 ![Captura de la pantalla de generación de reportes](imagen2.png)
+
+En la esquina superior derecha, encontraremos la opcion de "Reporte"
+
+![Captura de la pantalla de generación de reportes](imagen2_1.png)
+
+Una vez alli podremos filtrar por fechas.
+
+![Captura de la pantalla de generación de reportes](imagen2_2.png)
+
+Y finalmente generaremos un reporte con los datos de los tickets filtrados.
+
+![Captura de la pantalla de generación de reportes](imagen3.png)
 
 ## Enlaces y Referencias
 
